@@ -2,7 +2,7 @@
 ###  tweet a city's current weather.
 An application that consumes the openweathermap and twitter api, connecting them into a simple to use and fast api.  
 
-## Get Start
+## Get Started
 To run this project, you will need to have a developer account on twitter/x and an openweathermap account.
 
 0) Clone this repo.
