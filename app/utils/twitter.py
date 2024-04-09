@@ -23,5 +23,5 @@ class Twitter:
                                  access_token_secret=os.getenv("TWITTER_API_ACCESS_TOKEN_SECRET"),
                                  wait_on_rate_limit=True)
 
-    def make_tweet(self, text:str) -> None:
+    def make_tweet(self, text: str) -> None:
         self.api.create_tweet(text=text)
