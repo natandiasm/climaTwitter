@@ -8,7 +8,8 @@ To run this project, you will need to have a developer account on twitter/x and 
 0) Clone this repo.
 1) With the keys in hand, change the .env.exemple file, pasting your keys, then change the name to .env
 2) Install the dependencies by running the command `pip install -r requirements.txt`
-3) Run the api using the `uvicorn app.main:app` command in the project root
+3) Run command `pytest` to make tests in api, if pass, continue to point 4.
+4) Run the api using the `uvicorn app.main:app` command in the project root
 
 ## Documentation
 
